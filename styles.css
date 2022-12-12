@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body main {
+    background-color: rgb(216, 216, 205);
+}
+
+header
+{
+    padding: auto; 
+    background-color:#000!important; 
+    width: 100%; 
+    color: #fff;
+    z-index: 9;
+}
+
+footer{
+    background-color: rgb(155, 151, 146);
+}
+footer ul, footer ol{
+    padding-left: 30px;
+}
+nav, footer, main{
+    padding: 15px 25px;
+    padding-left: 65px;
+    padding-right: 40px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo img{
+    height: 40px;
+    object-fit: cover;
+}
+.list-item{
+    display: flex;
+    margin: 10px 10px;
+}
+.list-item a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.flex-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Path: index.html 
+cards
+*/
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: space-between;
+}
+.card .card-item{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-item div:first-child span{
+    font-size: 15px;
+}
+.card-item div:first-child span:nth-child(2){
+    margin-left: 20px;
+}
+.flex-item svg{
+    /* background-color: black; */
+    color: rgb(203, 213, 60);
+    font-weight: 800;
+    margin-left: 40px;
+}

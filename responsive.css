@@ -1,0 +1,29 @@
+.normal{
+    display: block;
+}
+.humberger{
+    display: none!important;
+    flex-direction: column;
+}
+@media screen and (max-width: 768px){
+    nav{
+        padding-left: 20px;
+    }
+    .normal{
+        display: none!important;
+    }
+    .humberger{
+        display: block!important;
+    } 
+}
+@media screen and (max-width: 768px){
+    .card{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    nav .logo{
+        /* display: none; */
+    }
+}
